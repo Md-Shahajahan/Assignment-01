@@ -1,21 +1,21 @@
-/* css for "Inter"font */
+/*.................... css for "Inter"font .................*/
 
 .inter{
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;;
+  font-optical-sizing: auto;
 }
-/* css for all content */
+/*.................... css for all content................... */
 *{
     margin:0;
     padding:0;
 }
-/* css for "nav-section" */
+/* ......................css for "nav-section".................*/
 .nav-section{
     display:flex;
-    max-width: 1600px;
-    margin:16px 120px;
+    margin:0 auto;
+    max-width:1600px;
     justify-content:space-between;
-    background-color: #FFFFFF;
+    padding:16px 120px;
     align-items: center;
 }
 .nav-img{
@@ -47,5 +47,100 @@
     cursor:pointer;
 }
 .btn1:hover{
-    color:#2f6f4b;
+    background-color:#2f6f4b;
+    color:black;
+}
+
+/*........................ css for hero-section ....................*/
+.hero-section{
+    max-width:1600px;
+    padding:147px 0 179px;
+    background: url("../B13-A01-Knowledge-Vault/assets/hero-bg.png");
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+}
+.hero-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}              
+.hero-section .active-box{
+display:inline-flex;
+justify-content: center;
+width:229px;
+background-color:#FFFFFF;
+border-radius: 1000px;
+font-weight:500;
+color:#30b868;
+gap:6px;
+
+}
+.active-box img{
+    width:16px;
+    height:16px;
+    border-radius:8px;
+    padding:10px 6px 10px 12px;
+
+
+}
+.active-box p{
+    color:#30b868;
+    width:183px;
+    align-items: center;
+    padding:8px 12px 8px 0;
+    font-size:15px;
+}
+.content h1{
+    width:770px;
+    margin:16px 295px;
+
+
+}
+.content p{
+    max-width:1360px;
+    margin-bottom: 32px;
+    font-size:18px;
+    color:#FFFFFF;
+    text-align: center;
+    line-height:24px;
+}
+
+.btn-container .btn2{
+    display:inline-flex;
+    border:none;
+    background-color:#30b868;
+    border-radius: 4px;
+    gap:10px;
+    padding:16px;
+    font-size:16px;
+    font-weight:600;
+    color:#FFFFFF;
+    cursor: pointer;
+    margin-right:16px;
+}
+.btn-container .btn2:hover{
+    background-color: #2f6f4b;
+    color:black;
+
+}
+.btn-container .btn3{
+    border:2px solid white;
+    border-radius:4px;
+    background-color: rgba(255, 255, 255, 0);
+    padding:16px;
+    font-weight:600;
+    font-size:16px;
+    color:#FFFFFF;
+    cursor:pointer;
+
+}
+.btn-container .btn3:hover{
+    background-color: rgba(192, 192, 192, 0.411);
+    color:black;
+}
+.btn3 i{
+    margin-right:10px;
 }
