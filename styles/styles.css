@@ -54,7 +54,7 @@
 /*........................ css for hero-section ....................*/
 .hero-section{
     max-width:1600px;
-    padding:147px 0 179px;
+    padding:115.5px 120px 179px;
     background: url("../B13-A01-Knowledge-Vault/assets/hero-bg.png");
     background-repeat: no-repeat;
     display:flex;
@@ -96,7 +96,8 @@ gap:6px;
 .content h1{
     width:770px;
     margin:16px 295px;
-
+    font-size:72px;
+    line-height:84px;
 
 }
 .content p{
@@ -144,3 +145,84 @@ gap:6px;
 .btn3 i{
     margin-right:10px;
 }
+/* ...............card section............. */
+#card-section{
+    background-color: #f4f2f25d;
+}
+.card-container{
+    width:85%;
+    max-width:1360px;
+    margin:0 auto;
+}
+.card-container .note-container{
+    text-align:center;
+    margin:0 auto;
+    max-width:1360px;
+    margin-bottom:44px;
+
+}
+.card-container .note-container h1{
+    width:1360px;
+    height:117px;
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+    font-size:48px;
+    font-weight:bold;
+    margin-bottom:16px;
+    color:#001931;
+}
+.card-container .note-container p{
+    width:1360px;
+    line-height:20px;
+    color:#627382;
+    margin-bottom:44px;
+}
+.card-container .note-container p , h1{
+    margin-top:0;
+}
+.note{
+    display:flex;
+    gap:24px;
+}
+.note .note-card{
+    max-width: 322px;
+    align-items: center;
+    padding:69.5px 24px 21.5px;
+    box-shadow:0 0 8px 0 #00000022;
+    background-color: #FFFFFF;
+  
+}
+.note .note-card .img-box{
+margin:0 auto;
+display:flex;
+border-radius: 50%;
+width:60px;
+height:60px;
+background-color: #F95555;
+align-items: center;
+justify-content: center;
+}
+.note .note-card .img-box img{
+    width:32px;
+    height:32px;
+}
+.note .note-card h2{
+    max-width: 274px;
+    font-size:24px;
+    font-weight: 600;
+    margin-bottom:16px;
+    color:#001931;
+    text-align: center;
+    
+}
+.note .note-card p{
+    max-width: 274px;
+    color:#627382;
+    font-size:16px;
+    line-height:20px;
+    border-radius:8px;
+    text-align: center;
+
+}
+/* ...........Brain Section............. */
