@@ -54,11 +54,9 @@
 /*........................ css for hero-section ....................*/
 .hero-section{
     max-width:1600px;
-    padding:115.5px 120px 179px;
     background: url("../B13-A01-Knowledge-Vault/assets/hero-bg.png");
     background-repeat: no-repeat;
     display:flex;
-    justify-content: center;
     margin:0 auto;
 }
 .hero-box{
@@ -66,6 +64,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding:115.5px 120px 179.5px;
 }              
 .hero-section .active-box{
 display:inline-flex;
@@ -148,6 +147,8 @@ gap:6px;
 /* ...............card section............. */
 #card-section{
     background-color: #f4f2f25d;
+    max-width: 1600px;
+    margin:0 auto;
 }
 .card-container{
     width:85%;
@@ -226,3 +227,53 @@ justify-content: center;
 
 }
 /* ...........Brain Section............. */
+#brain-section{
+    
+}
+#brain-section .brain-container{
+    padding:120px;
+    display:flex;
+    gap:60px;
+    justify-content: center;
+}
+#brain-section .brain-container .img-part{
+    width:600px;
+    border-radius: 12px;
+}
+#brain-section .brain-content{
+padding:120px 0 ;
+max-width: 700px;
+
+}
+#brain-section .brain-content h4{
+    color:#30b868;
+    font-weight: 500;
+    margin-bottom:16px;
+
+}
+#brain-section .brain-content h1{
+    margin-bottom:16px;
+    color:#001931;
+    font-size:48px;
+    font-weight:bold;
+
+}
+#brain-section .brain-content p{
+    margin-bottom:40px;
+    line-height:20px;
+    text-align:left;
+    color:#627382;
+}
+#brain-section .brain-content ul{
+    list-style: none;
+    max-width: 428px;
+}
+#brain-section .brain-content ul img{
+width:20px;
+height:20px;
+}
+#brain-section .brain-content ul li{
+    display:flex;
+    align-items:center;
+    margin-bottom:16px;
+}
