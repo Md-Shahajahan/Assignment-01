@@ -1,15 +1,15 @@
-/*.................... css for "Inter"font .................*/
+/*...................."Inter"font .................*/
 
 .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-/*.................... css for all content................... */
+/*.................... All content................... */
 *{
     margin:0;
     padding:0;
 }
-/* ......................css for "nav-section".................*/
+/* ......................"nav-section".................*/
 .nav-section{
     display:flex;
     margin:0 auto;
@@ -51,7 +51,7 @@
     color:black;
 }
 
-/*........................ css for hero-section ....................*/
+/*........................ hero-section ....................*/
 .hero-section{
     max-width:1600px;
     background: url("../B13-A01-Knowledge-Vault/assets/hero-bg.png");
@@ -146,7 +146,7 @@ gap:6px;
 }
 /* ...............card section............. */
 #card-section{
-    background-color: #f4f2f25d;
+    background-color: #f4f2f26d;
     max-width: 1600px;
     margin:0 auto;
 }
@@ -228,7 +228,8 @@ justify-content: center;
 }
 /* ...........Brain Section............. */
 #brain-section{
-    
+    max-width: 1600px;
+    margin:0 auto;
 }
 #brain-section .brain-container{
     padding:120px;
@@ -326,4 +327,43 @@ height:20px;
     color:#627382;
     margin-bottom:55px;
 }
+/* ..............footer section............ */
+#footer-section{
+    max-width:1600px;
+    margin:0 auto;
+
+}
+.about-container{
+ background-color: #001931;
+width:85%;
+max-width:1360px;
+padding:120px 120px 30px;
+margin:0 auto;
+}
+.footer-container{
+display:flex;
+gap:1001px;
+align-items:center;
+margin-bottom:80px;
+}
+.footer-container ul li img {
+    width:20px;
+    height:20px;
+}
+.footer-container .social-link p{
+    color:#FFFFFF;
+    font-size:20px;
+    font-weight:500;
+    margin-bottom:16px;
+}
+.footer-container .social-link li{
+    display:inline;
+    margin-right:16px;
+}
+.about-container .copyright{
+    color:#FAFAFA;
+    text-align:center;
+    margin-top:30px;
+}
+
 
