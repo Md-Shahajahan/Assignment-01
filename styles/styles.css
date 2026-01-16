@@ -277,3 +277,53 @@ height:20px;
     align-items:center;
     margin-bottom:16px;
 }
+/* ...........challenge section............. */
+#challenge-container{
+    max-width: 1600px;
+    margin:0 auto;
+}
+.challenge-content{
+    width:85%;
+    max-width: 1360px;
+    margin:2px 120px 120px 120px;
+    background-color: #F7F6F2;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.challenge-content .child-1{
+    max-width:1280px;
+    text-align: center;
+    padding:80px 40px 24px;
+}
+.challenge-content .child-1 h1{
+    font-size:40px;
+    font-weight:bold;
+    margin-bottom:16px;
+    color:#001931;
+}
+.challenge-content .child-1 p{
+    font-size:16px;
+    font-weight: 400;
+    color:#627382;
+    line-height: 24px;
+}
+.challenge-content .btn4{
+    display: inline-flex;
+    border:none;
+    background-color: #30b868;
+    color:#FFFFFF;
+    border-radius:4px;
+    padding:16px;
+    gap:10px;
+    margin-bottom:16px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.16);
+    
+}
+.challenge-content .P2{
+    font-size:16px;
+    font-weight:400;
+    color:#627382;
+    margin-bottom:55px;
+}
+
